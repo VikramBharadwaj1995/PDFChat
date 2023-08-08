@@ -1,5 +1,5 @@
 # PDFChat
-This project allows you to upload a PDF document and ask questions about its content. It uses langchain, openapi ai model and  Facebook Ai Similarity Search(FAISS) library to process the text in the PDF and provide answers to questions pertaining the document.
+This is a simple application that uses OpenAI's GPT-3.5-turbo to generate a conversation based on the text in a PDF file. The application is built using Streamlit and the PDF is converted to text using PyPDF2. The data from the PDF is indexed onto a vector database FAISS from where the closest match is found and the conversation is generated using OpenAI's Davinci engine.
 
 ## Installation
 
